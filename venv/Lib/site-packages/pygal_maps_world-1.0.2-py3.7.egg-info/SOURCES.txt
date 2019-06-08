@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+pygal_maps_world/__init__.py
+pygal_maps_world/i18n.py
+pygal_maps_world/maps.py
+pygal_maps_world/worldmap.svg
+pygal_maps_world.egg-info/PKG-INFO
+pygal_maps_world.egg-info/SOURCES.txt
+pygal_maps_world.egg-info/dependency_links.txt
+pygal_maps_world.egg-info/entry_points.txt
+pygal_maps_world.egg-info/requires.txt
+pygal_maps_world.egg-info/top_level.txt
+pygal_maps_world/test/__init__.py
+pygal_maps_world/test/test_maps.py

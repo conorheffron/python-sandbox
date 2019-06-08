@@ -1,0 +1,17 @@
+from main.python.practice1 import csv_project as cp
+
+for i in range(7):
+    test_1 = cp.read_csv_fieldnames('table' + str(i+1) + '.csv', ',', '"')
+    print('field names', test_1)
+
+for i in range(7):
+    test_2 = cp.read_csv_as_list_dict('table' + str(i+1) + '.csv', ',', '"')
+    print(test_2)
+
+for i in range(7):
+    test_3 = cp.read_csv_as_nested_dict('table' + str(i+1) + '.csv', 'Field1', ',', '"')
+    print(test_3)
+
+field_names = cp.read_csv_fieldnames('table1.csv', ',', '"')
+list_dict = cp.read_csv_as_list_dict('table1.csv', ',', '"')
+test_4 = cp.write_csv_from_list_dict('output1.csv', list_dict, field_names, ',', '"')
